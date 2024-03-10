@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeeDev</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/gd.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ghin.png" alt="Ghin Dacanay" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ghin Dacanay">Ghin Dacanay</h1>
+
+          <p class="title">UI DESIGNER</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon style="color: rgb(199, 128, 21);" name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ghinnievan4@gmail.com" class="contact-link">ghinnievan4@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon style="color: rgb(199, 128, 21);" name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+63 9816202204</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon style="color: rgb(199, 128, 21);" name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 4, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon style="color: rgb(199, 128, 21);" name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Mateo, Rizal, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=61556155095742" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/navwii_
+            " class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/mwo.chii/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I'm a second year college student studying at National University Fairview, majoring Bachelors of Science in Information Technology.
+           I enjoy web disigning and just designing in general. My main focus is on creating clean, intuitive ,
+          and user-friendly websites that id easy to navigate within any age range.
+          </p>
+
+          <p>
+            My goal as a student is to build a website that is functional and user-friendly but at the same time attractive.
+            As a student working on my website project, my main focus is to make it easy to use and nice to look at. 
+            I'll make sure people can find what they need easily by organizing everything neatly. Plus, it'll work well on phones, tablets, and computers alike.
+            I want it to look cool too, with colors and pictures that go together. 
+            So, my goal is to create a website that's both user-friendly and eye-catching for anyone who visits!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  A website that's both user-friendly and eye-catching for anyone who visits!
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the standard level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Skilled level development of applications for android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a ammature level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Hobbies
+        -->
+
+        <section class="Hobbies">
+
+          <h3 class="h3 Hobbies-title">Hobbies</h3>
+
+          <ul class="Hobbies-list has-scrollbar">
+
+            <li class="Hobbies-item">
+              <div class="content-card" data-Hobbies-item>
+
+                <figure class="Hobbies-avatar-box">
+                  <img src="./assets/images/badminton.png" alt="Badminton" width="60" data-Hobbies-avatar>
+                </figure>
+
+                <h4 class="h4 Hobbies-item-title" data-Hobbies-title>Badminton</h4>
+
+                <div class="Hobbies-text" data-Hobbies-text>
+                  <p>
+                    Ghin Loves to play badminton and was part of a team that won the school 
+                    tournament in her freshman year.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="Hobbies-item">
+              <div class="content-card" data-Hobbies-item>
+
+                <figure class="Hobbies-avatar-box">
+                  <img src="./assets/images/write.png" alt="Writing" width="60" data-Hobbies-avatar>
+                </figure>
+
+                <h4 class="h4 Hobbies-item-title" data-Hobbies-title>Writing</h4>
+
+                <div class="Hobbies-text" data-Hobbies-text>
+                  <p>
+                    Ghin has a passion for writing, which she started when she was in middle school.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="Hobbies-item">
+              <div class="content-card" data-Hobbies-item>
+
+                <figure class="Hobbies-avatar-box">
+                  <img src="./assets/images/publicSpeaking.png" alt="Public Speaking" width="60" data-Hobbies-avatar>
+                </figure>
+
+                <h4 class="h4 Hobbies-item-title" data-Hobbies-title>Public Speaking</h4>
+
+                <div class="Hobbies-text" data-Hobbies-text>
+                  <p>
+                    Ghin is good with public speaking  as demonstrated by her participation in various debates and
+                   Ghin is able to speak confidently infront of many.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="Hobbies-item">
+              <div class="content-card" data-Hobbies-item>
+
+                <figure class="Hobbies-avatar-box">
+                  <img src="./assets/images/reading.png" alt="Reading" width="60" data-Hobbies-avatar>
+                </figure>
+
+                <h4 class="h4 Hobbies-item-title" data-Hobbies-title>Reading</h4>
+
+                <div class="Hobbies-text" data-Hobbies-text>
+                  <p>
+                    Ghin loves to read novels during her free time, she enjoys reading about different genre of books.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Hobbies modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="Hobbies-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/ghin.png" alt="Ghin Dacanay" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Ghin Dacanay</h4>
+
+              <time datetime="2021-06-14">06, March 2024</time>
+
+              <div data-modal-text>
+                <p>
+                Ghin is a second year college student studying at National University Fairview, majoring Bachelors of Science in Information Technology.
+                She enjoys web disigning and just designing in general. Her main focus is on creating clean, intuitive ,
+                 and user-friendly websites that id easy to navigate within any age range.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - School
+        -->
+
+        <section class="School">
+
+          <h3 class="h3 School-title">Schools Ghin Attended</h3>
+
+          <ul class="School-list has-scrollbar">
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/VirgenDelPilarSchool">
+                <img src="./assets/images/vdps.png" alt="School logo">
+              </a>
+            </li>
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/AranzazuParochialSchool">
+                <img src="./assets/images/nsdaps.png" alt="School logo">
+              </a>
+            </li>
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/NationalUniversityPhilippines">
+                <img src="./assets/images/NU.png" alt="School logo">
+              </a>
+            </li>
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/search/top?q=asia%20pacific%20college">
+                <img src="./assets/images/apc.png" alt="School logo">
+              </a>
+            </li>
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/profile.php?id=100068868146299">
+                <img src="./assets/images/holyname.png" alt="School logo">
+              </a>
+            </li>
+
+            <li class="School-item">
+              <a href="https://www.facebook.com/pages/Doña-Pepeng-Elementary-School/1383905231912997">
+                <img src="./assets/images/elem.png" alt="School logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National University (Program under APC)</h4>
+
+              <span>2022 — present</span>
+
+              <p class="timeline-text">
+              Ghin is currently  pursuing a Bachelor’s Degree in Information Technology at National University Fairview.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nuestra Senora De Aranzazu</h4>
+
+              <span>2019 - 2022</span>
+
+              <p class="timeline-text">
+                Ghin graduated Senior Highschool pursued the program STEM at Nuestra Senora De Aranzazu and was one of the top students.
+                She graduated on top of her class and received several awards.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Virgen Del Pilar School</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Ghin Studied at Virgen Del Pilar School during Junior Highschool.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">USER DESIGN MANAGER</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Ghin usually is incharge with how the design of  a website looks like and also works on making sure
+                that it is user-friendly and practical.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="86">86%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHYTHON</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JAVA</h5>
+                <data value="58">58%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 58%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video Editing</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.canva.com/design/DAF2q2uxtlo/Nj5gdR5YkYRN8nS9NmVaIw/view?mode=prototype">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bulldogsEx.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bulldogs Exchange</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.canva.com/design/DAF0EJlYKr8/8A9m1LAWD3z4njcctNcQ6w/view?mode=prototype">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ediquest.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EduQuest (Gamified  Learning Platform)</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.canva.com/design/DAFX7hzjCeo/cFL-xpOUEgp-PLJa39iccQ/view?utm_content=DAFX7hzjCeo&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NUpage.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NU Page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://www.canva.com/design/DAFzB50Jnd8/1WE-dz9QnX1TQCs8wD9WPg/view?mode=prototype">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/phoneStocks.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stocks and Inventory System</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://www.canva.com/design/DAFzmvJC178/XpClFen9gBhfDU9TcTNJNw/view?mode=prototype">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/eduphone.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EDUquest</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.canva.com/design/DAFy1nOix00/RoM0ZIMAsjK5tqgl3XfjYw/view?mode=prototype">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/inventory.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stocks and Inventory</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=LcrTZ9b1JwI">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Arduino.jpg" alt="Arduino Uno 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-05-07">Sept 07, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Arduino Uno 2022</h3>
+
+                  <p class="blog-text">
+                    Gas Leak Detector with Automatic Digital PSI Gauge.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://drive.google.com/drive/folders/1avuDLswpz9yy84dVDI6gLtM0F-EENkoL?usp=sharing">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pswd.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Password Logger</h3>
+
+                  <p class="blog-text">
+                    Password Logger is a software tool designed to securely store and manage passwords and login credentials for various accounts and services.
+                  </p>
+
+                </div>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.14610356866285!2d121.07851233625702!3d14.749996987684648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b10150191ee5%3A0x376c4a9fc96e6c6f!2sKairos%20Cafe!5e0!3m2!1sen!2sph!4v1709742894052!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-form">
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
